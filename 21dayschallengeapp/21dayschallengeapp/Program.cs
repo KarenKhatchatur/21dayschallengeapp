@@ -7,11 +7,15 @@ if (sex == "Woman" && age < 30)
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
 
-if (name == "Ewa" && age == 30)
+else if (name == "Ewa" && age == 30)
 {
     Console.WriteLine("Ewa lat 30");
 }
-if (sex == "Man" && age < 18)
+else if (sex == "Man" && age < 18)
 {
     Console.WriteLine("Niepełnoletni Mężczyzna");
+}
+else
+{
+    Console.WriteLine("Żadna z powyższych odpowiedzi");
 }
