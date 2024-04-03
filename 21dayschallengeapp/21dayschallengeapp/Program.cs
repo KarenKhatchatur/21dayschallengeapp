@@ -13,5 +13,5 @@ if (name == "Ewa" && age == 30)
 }
 if (sex == "Man" && age < 18)
 {
-    Console.WriteLine("Niepełnoletni Mężczyzna")
+    Console.WriteLine("Niepełnoletni Mężczyzna");
 }
